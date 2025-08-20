@@ -302,7 +302,7 @@ function App() {
                 title: "Giro Della Morte",
               },
               {
-                image: "public/airtricks.gif",
+                image: "dist/airtricks.gif",
                 title: "Air Tricks",
               },
               {
