@@ -151,7 +151,7 @@ function App() {
         <div
           className="absolute inset-0 bg-contain bg-center bg-no-repeat"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("public/banner.jpg")`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../banner.jpg")`,
           }}
         />
         <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
@@ -219,7 +219,7 @@ function App() {
             <div className="fade-in">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl group">
                 <img
-                  src="public/ciccio1.jpg"
+                  src="../ciccio1.jpg"
                   alt="Freestyle Motocross Rider"
                   className="w-full h-80 sm:h-96 object-cover transform group-hover:scale-110 transition-transform duration-700"
                 />
@@ -244,14 +244,14 @@ function App() {
                 title: "Lezioni di Motocross",
                 description:
                   "Dai principianti ai rider avanzati, i nostri programmi di formazione personalizzati porteranno le tue abilità al livello successivo. Impara tecniche fondamentali o masterizza trick complessi in un ambiente controllato e sicuro.",
-                image: "public/lezione.png",
+                image: "../lezione.png",
                 color: "from-green-500 to-emerald-600",
               },
               {
                 title: "Spettacoli di Motocross Freestyle",
                 description:
                   "Prenota il team di Dangerfarm per uno spettacolo di motocross freestyle indimenticabile al tuo prossimo evento. I nostri piloti professionisti eseguono acrobazie mozzafiato che lasceranno il tuo pubblico a bocca aperta.",
-                image: "public/spettacolo.png",
+                image: "../spettacolo.png",
                 color: "from-green-500 to-emerald-600",
               },
             ].map((service, index) => (
@@ -298,15 +298,15 @@ function App() {
             {[
               // Example using a local image from public directory:
               {
-                image: "public/backflip.gif",
+                image: "../backflip.gif",
                 title: "Giro Della Morte",
               },
               {
-                image: "dist/airtricks.gif",
+                image: "../airtricks.gif",
                 title: "Air Tricks",
               },
               {
-                image: "public/Freestyle Training.gif",
+                image: "../Freestyle Training.gif",
                 title: "Freestyle Training",
               },
             ].map((item, index) => (
