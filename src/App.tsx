@@ -88,9 +88,9 @@ function App() {
             <div className="flex-shrink-0">
               <button
                 onClick={() => scrollToSection("hero")}
-                className="text-2xl font-black text-white hover:text-yellow-400 transition-colors duration-300"
+                className="text-3xl font-black text-yellow-400 hover:text-yellow-500 transition-colors duration-300"
               >
-                Danger<span className="text-red-500">farm</span>
+                Danger<span className="text-red-700">farm</span>
               </button>
             </div>
 
@@ -159,19 +159,22 @@ function App() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-6 leading-tight">
               Dangerfarm
             </h1>
+            <h2 className="text-1xl sm:text-3xl lg:text-4xl font-bold mb-4">
+              Nel dubbio... Accelera!💨
+            </h2>
             <p className="text-lg sm:text-xl lg:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto">
               Prima scuola di motocross freestyle del Centro-Sud Italia
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button
                 onClick={() => scrollToSection("contact")}
-                className="w-full sm:w-auto bg-gradient-to-r from-red-500 to-orange-500 text-white font-bold py-3 px-8 rounded-full hover:from-red-600 hover:to-orange-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+                className="w-full sm:w-auto bg-gradient-to-r from-yellow-500 to-red-600 text-white font-bold py-3 px-8 rounded-full hover:from-yellow-600 hover:to-red-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 Prenota una Lezione
               </button>
               <button
                 onClick={() => scrollToSection("contact")}
-                className="w-full sm:w-auto border-2 border-red-500 text-white font-bold py-3 px-8 rounded-full hover:bg-red-500 transform hover:scale-105 transition-all duration-300"
+                className="w-full sm:w-auto bg-gradient-to-r from-yellow-500 to-red-600 text-white font-bold py-3 px-8 rounded-full hover:from-yellow-600 hover:to-red-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 Prenota uno Show
               </button>
@@ -185,12 +188,12 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-black text-center mb-16 relative">
             Chi siamo
-            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-4 w-20 h-1 bg-gradient-to-r from-red-500 to-orange-500 rounded-full"></div>
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-4 w-20 h-1 bg-gradient-to-r from-yellow-500 to-red-600 rounded-full"></div>
           </h2>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="fade-in">
-              <h3 className="text-2xl sm:text-3xl font-bold mb-6 text-orange-500">
+              <h3 className="text-2xl sm:text-3xl font-bold mb-6 text-yellow-500">
                 Ride with the Best
               </h3>
               <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
@@ -235,7 +238,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-black text-center mb-16 relative">
             I Nostri Servizi
-            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-4 w-20 h-1 bg-gradient-to-r from-red-500 to-orange-500 rounded-full"></div>
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-4 w-20 h-1 bg-gradient-to-r from-yellow-500 to-red-600 rounded-full"></div>
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -245,14 +248,14 @@ function App() {
                 description:
                   "Dai principianti ai rider avanzati, i nostri programmi di formazione personalizzati porteranno le tue abilità al livello successivo. Impara tecniche fondamentali o masterizza trick complessi in un ambiente controllato e sicuro.",
                 image: "../lezione.png",
-                color: "from-green-500 to-emerald-600",
+                color: "from-yellow-500 to-red-600",
               },
               {
                 title: "Spettacoli di Motocross Freestyle",
                 description:
                   "Prenota il team di Dangerfarm per uno spettacolo di motocross freestyle indimenticabile al tuo prossimo evento. I nostri piloti professionisti eseguono acrobazie mozzafiato che lasceranno il tuo pubblico a bocca aperta.",
                 image: "../spettacolo.png",
-                color: "from-green-500 to-emerald-600",
+                color: "from-yellow-500 to-red-600",
               },
             ].map((service, index) => (
               <div key={index} className="fade-in group">
@@ -266,7 +269,7 @@ function App() {
                     <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent"></div>
                   </div>
                   <div className="p-8">
-                    <h3 className="text-xl sm:text-2xl font-bold mb-4 text-green-400">
+                    <h3 className="text-xl sm:text-2xl font-bold mb-4 text-yellow-500">
                       {service.title}
                     </h3>
                     <p className="text-gray-300 mb-6 leading-relaxed">
@@ -291,7 +294,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-black text-center mb-16 relative">
             Galleria
-            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-4 w-20 h-1 bg-gradient-to-r from-red-500 to-orange-500 rounded-full"></div>
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-4 w-20 h-1 bg-gradient-to-r from-yellow-500 to-red-600 rounded-full"></div>
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -336,12 +339,12 @@ function App() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-black text-center mb-16 relative">
             Contatta CiccioWhite24
-            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-4 w-20 h-1 bg-gradient-to-r from-red-500 to-orange-500 rounded-full"></div>
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-4 w-20 h-1 bg-gradient-to-r from-yellow-500 to-red-600 rounded-full"></div>
           </h2>
 
           <div className="fade-in text-center">
             <div className="bg-gray-800 rounded-2xl p-8 sm:p-12 shadow-2xl">
-              <h3 className="text-2xl font-bold mb-8 text-orange-500">
+              <h3 className="text-2xl font-bold mb-8 text-yellow-500">
                 Dettagli di Contatto
               </h3>
 
@@ -356,17 +359,22 @@ function App() {
                 </div>
                 <div className="flex items-center justify-center sm:justify-start gap-4 text-gray-300">
                   <MapPin className="text-red-500 flex-shrink-0" size={24} />
-                  <span className="text-lg">
+                  <a
+                    href="https://maps.app.goo.gl/MTgEihfLYU4iBoQ39"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg underline decoration-red-400 hover:text-red-500 transition-colors duration-300 font-semibold"
+                  >
                     Strada Comunale Sovero, 10, Putignano BA
-                  </span>
+                  </a>
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold mb-6 text-orange-500">
+              <h3 className="text-2xl font-bold mb-4 text-yellow-500">
                 I Nostri Social
               </h3>
 
-              <div className="flex justify-center gap-6 mb-12">
+              <div className="flex justify-center gap-7 mb-12">
                 {[
                   {
                     icon: Instagram,
@@ -389,7 +397,7 @@ function App() {
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-gray-700 hover:bg-gradient-to-r hover:from-red-500 hover:to-orange-500 p-4 rounded-full transform hover:scale-110 hover:-translate-y-1 transition-all duration-300 group"
+                    className="bg-gray-700 hover:bg-gradient-to-r hover:from-yellow-500 hover:to-red-600 p-4 rounded-full transform hover:scale-110 hover:-translate-y-1 transition-all duration-300 group"
                     aria-label={social.label}
                   >
                     <social.icon
@@ -407,7 +415,7 @@ function App() {
                 className="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-full transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 <MessageCircle size={24} />
-                Contattami su WhatsApp
+                Contattaci su WhatsApp
               </a>
             </div>
           </div>
@@ -420,8 +428,13 @@ function App() {
           <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-8">
             {/* Logo Section */}
             <div className="flex flex-col lg:flex-row lg:items-center gap-4">
-              <div className="text-2xl sm:text-3xl font-black text-white whitespace-nowrap">
-                Danger<span className="text-red-500">farm</span>
+              <img
+                src="../public/logo.jpg"
+                alt="Dangerfarm Logo"
+                className="h-10 w-auto"
+              />
+              <div className="text-2xl sm:text-3xl font-black text-yellow-400 whitespace-nowrap">
+                Danger<span className="text-red-700">farm</span>
               </div>
             </div>
 
