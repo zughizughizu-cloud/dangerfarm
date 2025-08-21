@@ -429,7 +429,7 @@ function App() {
             {/* Logo Section */}
             <div className="flex flex-col lg:flex-row lg:items-center gap-4">
               <img
-                src="../logo.jpg"
+                src="/logo.jpg"
                 alt="Dangerfarm Logo"
                 className="h-10 w-auto"
               />
