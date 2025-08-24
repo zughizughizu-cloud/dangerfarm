@@ -433,15 +433,15 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-8">
             {/* Logo Section */}
-            <div className="flex flex-col lg:flex-row lg:items-center gap-4">
-              <img
-                src="/logo.jpg"
-                alt="Dangerfarm Logo"
-                className="h-10 w-auto"
-              />
+            <div className="flex items-center gap-2">
               <div className="text-2xl sm:text-3xl font-black text-yellow-400 whitespace-nowrap">
                 Danger<span className="text-red-700">farm</span>
               </div>
+              <img
+                src="/logo.jpg"
+                alt="Dangerfarm Logo"
+                className="h-10 object-contain"
+              />
             </div>
 
             {/* Navigation Links */}
