@@ -42,7 +42,8 @@ html {
 }
 
 /* Ensure full height */
-body, #root {
+body,
+#root {
   min-height: 100vh;
 }
 
@@ -73,4 +74,11 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+.hero {
+  background-size: cover; /* l’immagine copre sempre tutta la sezione */
+  background-position: center; /* mantiene al centro la parte importante */
+  background-repeat: no-repeat;
+  min-height: 100vh; /* occupa l’altezza intera dello schermo */
 }

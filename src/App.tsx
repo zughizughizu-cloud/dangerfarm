@@ -88,9 +88,15 @@ function App() {
             <div className="flex-shrink-0">
               <button
                 onClick={() => scrollToSection("hero")}
-                className="text-3xl font-black text-yellow-400 hover:text-yellow-500 transition-colors duration-300"
+                className="text-4xl font-black text-yellow-400 hover:text-yellow-500 transition-colors duration-300"
               >
-                Danger<span className="text-red-700">farm</span>
+                <span style={{ fontFamily: "Anton, sans-serif" }}>Danger</span>
+                <span
+                  style={{ fontFamily: "Anton, sans-serif" }}
+                  className="text-red-700 ml-[4px]"
+                >
+                  farm
+                </span>
               </button>
             </div>
 
@@ -101,7 +107,7 @@ function App() {
                   <button
                     key={item.id}
                     onClick={() => scrollToSection(item.id)}
-                    className={`px-3 py-2 text-sm font-semibold transition-colors duration-300 hover:text-red-500 ${
+                    className={`px-3 py-2 text-m font-semibold transition-colors duration-300 hover:text-red-500 ${
                       activeSection === item.id ? "text-red-500" : "text-white"
                     }`}
                   >
@@ -149,9 +155,9 @@ function App() {
         className="relative min-h-screen flex items-center justify-center"
       >
         <div
-          className="absolute inset-0 bg-contain bg-center bg-no-repeat"
+          className="w-full h-screen absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../banner.jpg")`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../banner.png")`,
           }}
         />
         <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
