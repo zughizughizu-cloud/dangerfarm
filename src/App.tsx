@@ -361,7 +361,7 @@ function App() {
                 </div>
                 <div className="flex items-center justify-center sm:justify-start gap-4 text-gray-300">
                   <Mail className="text-red-500 flex-shrink-0" size={24} />
-                  <span className="text-lg">info@dangerfarm.it</span>
+                  <span className="text-lg">cicciowhite@dangerfarm.it</span>
                 </div>
                 <div className="flex items-center justify-center sm:justify-start gap-4 text-gray-300">
                   <MapPin className="text-red-500 flex-shrink-0" size={24} />
